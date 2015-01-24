@@ -19,6 +19,9 @@ Create a cron job which logs internet speed records to "log.csv" in this reposit
 
 e.g. `2015-01-15 05:40:32,39.991,65.34,6.61`
 
+## TODO
+- Show chart's y-axis values in intervals of 5 (0, 5, 10, 15, ...)
+
 ## External resources
 - [morris.js](http://morrisjs.github.io/morris.js) ([Github](https://github.com/morrisjs/morris.js))
 - [Raphaël](http://raphaeljs.com)
