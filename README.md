@@ -19,6 +19,9 @@ Create a cron job which logs internet speed records to "log.csv" in this reposit
 
 e.g. `2015-01-15 05:40:32,39.991,65.34,6.61`
 
+#### speedtest-cli (+ run-and-log.sh)
+[This tool](https://github.com/dag0310/speedtest-cli) will do the logging for you in the format mentioned above. The README of it explains how to set up the cron job.
+
 ## TODO
 - Show chart's y-axis values in intervals of 5 (0, 5, 10, 15, ...)
 
