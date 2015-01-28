@@ -32,7 +32,7 @@ $(function () {
             ykeys: ['ping', 'download', 'upload'],
             labels: ['Ping [ms]', 'Down [Mbit/s]', 'Up [Mbit/s]'],
             lineColors: ['rgb(21, 21, 234)', 'rgb(234, 93, 19)', 'rgb(230, 156, 19)'],
-            smooth: true,
+            smooth: false,
             resize: true,
             continuousLine: true
         });
