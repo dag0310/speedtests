@@ -15,6 +15,7 @@ $(function () {
         cache: false,
         url: 'log.php'
     }).done(function(log) {
+        console.log("test");
         if (log.length === 0)
             alert('There are no log entries yet.');
 
@@ -39,6 +40,8 @@ $(function () {
             resize: true,
             continuousLine: true
         });
+    }).fail(function() {
+        alert('Log data could not be fetched :(');
     });
 });
 }());
