@@ -14,7 +14,10 @@ $(function () {
         type: 'GET',
         cache: false,
         url: 'log.php'
-    }).done(function (log) {
+    }).done(function(log) {
+        if (log.length === 0)
+            alert('There are no log entries yet.');
+
         var chartData = [];
         for (var i = 0; i < log.length; i++) {
             chartData.push({
