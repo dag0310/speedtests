@@ -8,8 +8,8 @@ function round(number, decimalPlaces) {
     var factor = Math.pow(10, decimalPlaces);
     return Math.round(number * factor) / factor;
 }
-
-$(function () {
+    
+function refresh() {
     $.ajax({
         type: 'GET',
         cache: false,
@@ -42,5 +42,12 @@ $(function () {
     }).fail(function() {
         alert('Log data could not be fetched :(');
     });
+}
+
+$(function () {
+    $(window).focus(function() {
+        refresh()
+    });
+    refresh();
 });
 }());
