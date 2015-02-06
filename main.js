@@ -9,7 +9,7 @@
         xkey: 'dateTime',
         ykeys: ['ping', 'download', 'upload'],
         labels: ['Ping [ms]', 'Down [Mbit/s]', 'Up [Mbit/s]'],
-        lineColors: ['rgb(21, 21, 234)', 'rgb(234, 27, 19)', 'rgb(230, 100, 19)'],
+        lineColors: ['rgb(110, 110, 245)', 'rgb(234, 27, 19)', 'rgb(230, 100, 19)'],
         smooth: false,
         resize: true,
         continuousLine: true
