@@ -10,6 +10,7 @@
         ykeys: ['ping', 'download', 'upload'],
         labels: ['Ping [ms]', 'Down [Mbit/s]', 'Up [Mbit/s]'],
         lineColors: ['rgb(110, 110, 245)', 'rgb(234, 27, 19)', 'rgb(230, 100, 19)'],
+        pointSize: 0,
         smooth: false,
         resize: true,
         continuousLine: true
