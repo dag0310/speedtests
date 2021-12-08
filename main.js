@@ -2,7 +2,7 @@
     'use strict';
 
     var chart = Morris.Line({
-        element: 'speedtest-chart',
+        element: 'chart',
         data: [],
         xkey: 'dateTime',
         ykeys: ['ping', 'download', 'upload'],
@@ -38,6 +38,7 @@
                 });
             }
             chart.setData(chartData);
+            document.getElementById('loading').style.display = 'none';
         }).fail(function() {
             alert('Log data could not be fetched :(');
         });

@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div id="speedtest-chart"></div>
-
-    <!-- Scripts -->
+    <div id="chart"></div>
+    <div id="loading">LOADING ...</div>
     <script src="vendor/jquery.min.js"></script>
     <script src="vendor/raphael-min.js"></script>
     <script src="vendor/morris/morris.min.js"></script>
