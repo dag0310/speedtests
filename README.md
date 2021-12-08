@@ -29,7 +29,6 @@ e.g. `2015-01-15 05:40:32,39.991,65.34,6.61`
 - [morris.js](http://morrisjs.github.io/morris.js) ([Github](https://github.com/morrisjs/morris.js))
 - [Raphaël](http://raphaeljs.com)
 - [jQuery](http://jquery.com/) ([Github](https://github.com/jquery/jquery))
-- [Add To Homescreen](http://cubiq.org/add-to-home-screen) ([Github](https://github.com/cubiq/add-to-homescreen))
 
 ## License
 The MIT License (MIT)

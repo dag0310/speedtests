@@ -8,10 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="icon" href="speedometer_transparent.png">
     <link rel="apple-touch-icon" href="speedometer.png">
-
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="vendor/morris/morris.css">
-    <link rel="stylesheet" href="vendor/addtohomescreen/addtohomescreen.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -21,7 +18,6 @@
     <script src="vendor/jquery.min.js"></script>
     <script src="vendor/raphael-min.js"></script>
     <script src="vendor/morris/morris.min.js"></script>
-    <script src="vendor/addtohomescreen/addtohomescreen.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

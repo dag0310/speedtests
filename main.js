@@ -1,8 +1,6 @@
 (function() {
     'use strict';
 
-    addToHomescreen();
-
     var chart = Morris.Line({
         element: 'speedtest-chart',
         data: [],
